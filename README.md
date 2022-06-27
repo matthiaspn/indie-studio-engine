@@ -16,7 +16,7 @@
 
 <h3 align="center">Indie Studio - Engine</h3>
 ![Cpp](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![raylib](https://img.shields.io/badge/Raylib-black?style=for-the-badge&logo=GNU&logoColor=white)
-  <p align="center">
+<p align="center">
     An engine based on the Raylib graphic library
   </p>
 </div>
