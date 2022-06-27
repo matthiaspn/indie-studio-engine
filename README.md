@@ -15,7 +15,8 @@
     <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a5/Bomberman_Logo.svg/1280px-Bomberman_Logo.svg.png" alt="Logo">
 
 <h3 align="center">Indie Studio - Engine</h3>
-![Cpp](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![raylib](https://img.shields.io/badge/Raylib-black?style=for-the-badge&logo=GNU&logoColor=white)
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="Logo">
+<img src="https://img.shields.io/badge/Raylib-black?style=for-the-badge&logo=GNU&logoColor=white" alt="Raylib logo">
 <p align="center">
     An engine based on the Raylib graphic library
   </p>
