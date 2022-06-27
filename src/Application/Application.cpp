@@ -17,6 +17,7 @@ Engine::Application::Application(unsigned int width, unsigned int height,
     _assets = std::make_unique<Engine::Resources::Loader>();
     _mouse = std::make_unique<Raylib::Mouse>();
     _sceneManager = std::make_unique<Engine::SceneManager>();
+    _audioManager = std::make_unique<Engine::AudioManager>();
 }
 
 Engine::Application::~Application()

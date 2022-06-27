@@ -12,8 +12,9 @@
 #include "../../libs/Raylib/includes/Keyboard.hpp"
 #include "../../libs/Raylib/includes/Gamepad.hpp"
 #include "../Scenes/SceneManager.hpp"
-#include "Player.hpp"
+#include "../Audio/AudioManager.hpp"
 #include "../Resources/Loader.hpp"
+#include "Player.hpp"
 #include <memory>
 #include <vector>
 
@@ -38,5 +39,6 @@ namespace Engine {
             std::vector<std::shared_ptr<Player>> _players;
             std::unique_ptr<Engine::Resources::Loader> _assets;
             std::unique_ptr<SceneManager> _sceneManager;
+            std::unique_ptr<AudioManager> _audioManager;
     };
 }
