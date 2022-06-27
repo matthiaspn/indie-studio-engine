@@ -23,8 +23,7 @@ Engine::Player::Player(std::string &inputType, unsigned int id)
 }
 
 Engine::Player::~Player()
-{
-}
+= default;
 
 bool Engine::Player::isPressed(int keyOrButton)
 {

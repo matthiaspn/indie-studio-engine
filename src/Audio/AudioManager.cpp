@@ -8,8 +8,7 @@
 #include "../../includes/Audio/AudioManager.hpp"
 
 Engine::AudioManager::AudioManager()
-{
-}
+= default;
 
 Engine::AudioManager::~AudioManager()
 {

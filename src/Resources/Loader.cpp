@@ -25,8 +25,7 @@ Engine::Resources::Loader::Loader()
 }
 
 Engine::Resources::Loader::~Loader()
-{
-}
+= default;
 
 std::vector<std::string> Engine::Resources::Loader::getFontsLoaded()
 {

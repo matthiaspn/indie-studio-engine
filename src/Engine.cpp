@@ -28,7 +28,7 @@ Engine::Engine::~Engine()
 }
 
 void Engine::Engine::createApp(unsigned int width, unsigned int height, const
-std::string &titleWindow, int gamepadId)
+std::string &titleWindow, const std::vector<std::string> &players)
 {
-    _application = std::make_unique<Application>(width, height, titleWindow, gamepadId);
+    _application = std::make_unique<Application>(width, height, titleWindow, players);
 }

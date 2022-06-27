@@ -11,10 +11,10 @@ namespace Engine {
     class IScene {
         public:
             // Ctor
-            IScene(){}
+            IScene()= default;
 
             // Dtor
-            virtual ~IScene(){}
+            virtual ~IScene()= default;
 
             // Member functions
             virtual void initialize() = 0;

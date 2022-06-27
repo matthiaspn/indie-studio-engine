@@ -22,8 +22,7 @@ namespace Engine {
 
             // Member functions
             void createApp(unsigned int width, unsigned int height, const
-            std::string &titleWindow, int gamepadId);
-            std::unique_ptr<Application> getApplication();
+            std::string &titleWindow, const std::vector<std::string> &players);
 
         private:
             // Ctor

@@ -8,12 +8,10 @@
 #include "../../includes/Scenes/SceneManager.hpp"
 
 Engine::SceneManager::SceneManager()
-{
-}
+= default;
 
 Engine::SceneManager::~SceneManager()
-{
-}
+= default;
 
 std::shared_ptr<Engine::IScene> Engine::SceneManager::getCurrentScene() const
 {
