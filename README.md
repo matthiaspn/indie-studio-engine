@@ -15,7 +15,7 @@
     <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a5/Bomberman_Logo.svg/1280px-Bomberman_Logo.svg.png" alt="Logo">
 
 <h3 align="center">Indie Studio - Engine</h3>
-
+![Cpp](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![raylib](https://img.shields.io/badge/Raylib-black?style=for-the-badge&logo=GNU&logoColor=white)
   <p align="center">
     An engine based on the Raylib graphic library
   </p>
@@ -65,7 +65,7 @@ To compile, you need the following items:
 
 I intend to continue the development of this engine outside of the project that was initially entrusted to us. Here is a list of the features I want to integrate in the future:
 
-- [ ] Fixing the bug on the Button component
+- [x] Fixing the bug on the Button component
 - [ ] Add a component to manage collisions on the map
 - [ ] Add a component to manage the camera simply
 
