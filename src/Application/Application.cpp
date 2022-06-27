@@ -16,7 +16,7 @@ Engine::Application::Application(unsigned int width, unsigned int height,
         _players.push_back(std::make_shared<Engine::Player>(players[i], players.size()));
     _assets = std::make_unique<Engine::Resources::Loader>();
     _mouse = std::make_unique<Raylib::Mouse>();
-    _sceneManager = Engine::SceneManager::getInstance();
+    _sceneManager = std::make_unique<Engine::SceneManager>();
 }
 
 Engine::Application::~Application()
@@ -36,10 +36,5 @@ void Engine::Application::update()
     _window->clearBackground(Raylib::Color(255, 255, 255, 255));
     _sceneManager->getCurrentScene()->update();
     _window->endDraw();
-}
-
-Engine::SceneManager *Engine::Application::getSceneManager()
-{
-    return _sceneManager;
 }
 

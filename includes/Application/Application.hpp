@@ -31,15 +31,12 @@ namespace Engine {
             void run();
             void update();
 
-            // Getters
-            SceneManager *getSceneManager();
-
         private:
             // Objects
             std::unique_ptr<Raylib::Window> _window;
+            std::unique_ptr<Raylib::Mouse> _mouse;
             std::vector<std::shared_ptr<Player>> _players;
             std::unique_ptr<Engine::Resources::Loader> _assets;
-            std::unique_ptr<Raylib::Mouse> _mouse;
-            SceneManager* _sceneManager;
+            std::unique_ptr<SceneManager> _sceneManager;
     };
 }

@@ -15,7 +15,8 @@
 namespace Engine {
     class SceneManager {
         public:
-            static SceneManager* getInstance();
+            // Ctor
+            SceneManager();
 
             // Dtor
             ~SceneManager();
@@ -27,11 +28,8 @@ namespace Engine {
             void remove(unsigned int sceneId);
 
         private:
-            // Ctor
-            SceneManager();
 
             // Objects
-            static SceneManager* _instance;
             std::map<unsigned int, std::shared_ptr<IScene> > _sceneList;
             std::pair<unsigned int, std::shared_ptr<IScene> > _currentScene;
     };

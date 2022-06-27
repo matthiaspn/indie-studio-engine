@@ -6,17 +6,6 @@
 */
 
 #include "../../includes/Scenes/SceneManager.hpp"
-#include <unordered_map>
-#include <iterator>
-
-Engine::SceneManager* Engine::SceneManager::_instance(nullptr);
-
-Engine::SceneManager* Engine::SceneManager::getInstance()
-{
-    if (_instance == nullptr)
-        _instance = new SceneManager;
-    return _instance;
-}
 
 Engine::SceneManager::SceneManager()
 {
